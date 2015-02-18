@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PROGDIR=`dirname $0`
-TEMPLATE=$PROGDIR/client-template.txt
+TEMPLATE=$PROGDIR/client-profile-template.txt
 
 EASYRSA=/etc/openvpn/easy-rsa/
 
