@@ -1,0 +1,25 @@
+client
+dev tun
+# Configure protocol
+#
+#proto udp
+#proto tcp
+
+# Configure VPN server
+#remote 10.10.10.10 1149
+
+resolv-retry infinite
+nobind
+user nobody
+group nogroup
+persist-key
+persist-tun
+ns-cert-type server
+verb 3
+
+# If tls-auth is configured, insert tls-auth data here:
+#
+#<tls-auth>
+#...
+#</tls-auth>
+#key-direction 1
